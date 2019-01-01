@@ -10,12 +10,12 @@ import Foundation
 
 struct Product {
     private(set) public var title: String
-    private(set) public var imageViewName: String
+    private(set) public var imageName: String
     private(set) public var price: String
     
-    init(title: String, imageViewName: String, price: String) {
+    init(title: String, imageName: String, price: String) {
         self.title = title
-        self.imageViewName = imageViewName
+        self.imageName = imageName
         self.price = price 
     }
 }
